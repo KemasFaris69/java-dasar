@@ -3,10 +3,11 @@ import java.util.Scanner;
 class NilaiMahasiswa {
     public static void main(String[] args) {
         int nilaiInput;
-        Scanner keyboard = new Scanner(System.in);
-        System.out.println("===== Nilai Mahasiswa =====");
-        System.out.println("Masukkan nilai : ");
-        nilaiInput = keyboard.nextInt();
+        try (Scanner keyboard = new Scanner(System.in)) {
+            System.out.println("===== Nilai Mahasiswa =====");
+            System.out.println("Masukkan nilai : ");
+            nilaiInput = keyboard.nextInt();
+        }
         switch (nilaiInput) { 
             case -5 -> System.out.println("A");
             case -10 -> System.out.println("B");

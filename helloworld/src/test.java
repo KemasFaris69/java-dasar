@@ -10,8 +10,8 @@
 public class test {
      public static void main(String[] args) {
         // Contoh masukan
-        String hujan = "ya"; // "ya" atau "tidak"
-        String membawaPayung = "ya"; // "ya" atau "tidak"
+        String hujan = "tidak"; // "ya" atau "tidak"
+        String membawaPayung = "tidak"; // "ya" atau "tidak"
 
         // Panggil prosedur untuk menentukan keputusan
         tentukanKeputusan(hujan, membawaPayung);
