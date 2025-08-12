@@ -32,8 +32,9 @@ public class NilaiMahasiswas {
             default:
                 System.out.println("F");
                 break;
-        }
-    }
+            }
+
+        }
 
 }
     

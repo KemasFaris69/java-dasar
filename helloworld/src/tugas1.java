@@ -34,7 +34,6 @@ public static void main(String[] args) {
         
         System.out.println("Jumlah aktivitas belajar: " + belajarCount);
         System.out.println("Jumlah aktivitas main: " + mainCount);
-    
             }
 
     }

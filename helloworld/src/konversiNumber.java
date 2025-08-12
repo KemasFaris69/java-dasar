@@ -15,5 +15,10 @@ public class konversiNumber {
         
         int iniInt2 = 1000;
         byte iniByte2 = (byte) iniInt2;
+
+        System.out.println("Nilai byte: " + iniByte);
+        System.out.println("Nilai short: " + iniShort);
+        System.out.println("Nilai int: " + iniInt);
+        System.out.println("Nilai byte setelah konversi: " + iniByte2);
     }
 }

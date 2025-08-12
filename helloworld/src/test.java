@@ -23,7 +23,7 @@ public class test {
             System.out.println("berangkat");
         } else {
             System.out.println("diam di rumah");
-        }
-    }
+}
+}
 
 }
